@@ -1,0 +1,26 @@
+object Form1: TForm1
+  Left = 604
+  Height = 240
+  Top = 123
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '2.2.0.1'
+  object Button1: TButton
+    Left = 96
+    Height = 25
+    Top = 168
+    Width = 126
+    Caption = 'Расчет периметра'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 19
+    Height = 15
+    Top = 37
+    Width = 215
+    Caption = 'Многоугольник с количеством сторон'
+  end
+end
